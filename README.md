@@ -26,24 +26,6 @@ The project follows a complete Machine Learning workflow:
 
 **Data Collection → Data Preprocessing → Exploratory Data Analysis → Feature Engineering → Model Training → Hyperparameter Tuning → Model Evaluation → Prediction**
 
-### Data Preprocessing
-
-The dataset is prepared before training the model by:
-
-* Checking for missing values
-* Checking for duplicate records
-* Handling categorical features
-* Preparing features for Machine Learning
-* Splitting the data into training and testing sets
-
-### Exploratory Data Analysis
-
-Exploratory analysis is performed to understand the dataset and identify patterns that may contribute to employee attrition.
-
-The analysis includes examining feature distributions, categorical variables, and relationships between employee attributes and the target variable.
-
-## Model
-
 A **Random Forest Classifier** is used as the primary Machine Learning model.
 
 Random Forest combines multiple decision trees to produce a more robust classification model. It is suitable for this problem because it can capture complex relationships between different employee attributes and the target variable.
@@ -66,56 +48,6 @@ The trained model is evaluated using multiple classification metrics:
 * **Confusion Matrix**
 
 Using multiple evaluation metrics provides a better understanding of the model's performance rather than relying only on accuracy.
-
-## Technologies Used
-
-* Python
-* Jupyter Notebook
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-
-## Project Structure
-
-```text
-Employee-Attrition-Prediction/
-│
-├── employee_attrition.ipynb
-├── train.csv
-├── test.csv
-├── README.md
-└── requirements.txt
-```
-
-## How to Run
-
-1. Clone this repository.
-
-```bash
-git clone <repository-url>
-```
-
-2. Navigate to the project directory.
-
-```bash
-cd Employee-Attrition-Prediction
-```
-
-3. Install the required libraries.
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Open the Jupyter Notebook.
-
-```bash
-jupyter notebook
-```
-
-5. Run the notebook cells sequentially to preprocess the data, train the model, tune the hyperparameters, and evaluate the results.
 
 ## Objective
 
